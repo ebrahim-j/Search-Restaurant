@@ -10,4 +10,4 @@ def locu_search(query):
     data = json.load(json_obj)
    
     for item in data['objects']:
-        print item['name'], item['phone']
+        print (item['name'], item['phone'])
